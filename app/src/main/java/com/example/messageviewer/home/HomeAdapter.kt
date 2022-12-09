@@ -65,7 +65,6 @@ class HomeAdapter : ListAdapter<Message, RecyclerView.ViewHolder>(diffCallBack()
                     return newItem.userId == oldItem.userId
                             && newItem.title == oldItem.title
                             && newItem.body == oldItem.body
-                            && newItem.removed == oldItem.removed
                 }
             }
     }

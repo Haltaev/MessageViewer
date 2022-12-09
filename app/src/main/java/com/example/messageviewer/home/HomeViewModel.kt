@@ -33,14 +33,4 @@ class HomeViewModel @Inject constructor(private val messagesRepository: Messages
             }
         }
     }
-
-    fun markNewMessageAsRemoved(position: Int) {
-        messages.removeAt(messages.indexOfFirst { it.removed })
-        messages[position].removed = true
-        _messagesLiveData.postValue(messages)
-    }
-
-    fun removeMessage(position: Int) {
-        messages.removeAt(position)
-    }
 }

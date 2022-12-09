@@ -11,6 +11,4 @@ class Message(
     val title: String,
     @SerializedName("body")
     val body: String,
-
-    var removed: Boolean = false,
 )

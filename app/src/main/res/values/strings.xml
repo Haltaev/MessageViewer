@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">MessageViewer</string>
+
+    <string name="message_removed">Сообщение %1$d удалено</string>
+    <string name="user_id">User id: %1$d</string>
+
+    //errors
+    <string name="error_class_cast">Данные не соответсвует ожиданию</string>
+    <string name="error_network_error">Нет подключения к интернету</string>
+    <string name="error_unknown">Неизвкетсная ошибка</string>
+
 </resources>
